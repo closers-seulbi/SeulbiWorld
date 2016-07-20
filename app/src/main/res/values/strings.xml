@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Seulbi App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cache">Remove Cache</string>
+    <string name="action_update">Update</string>
+    <string name="cache_alert">This Action Will Remove Cache from your Phone</string>
+    <string name="neutral_button">Close</string>
+    <string name="preparing_update">Preparing Update Feature</string>
+    <string name="action_version">Version</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">슬비 앱</string>
+    <string name="action_settings">설정</string>
+    <string name="neutral_button">닫기</string>
+    <string name="cache_alert">이 행동은 당신의 폰에 저장된 캐시를 삭제할 것입니다</string>
+    <string name="action_cache">캐시 삭제</string>
+    <string name="action_update">업데이트</string>
+    <string name="preparing_update">업데이트 기능 구상중</string>
+    <string name="action_version">버전</string>
+</resources>
