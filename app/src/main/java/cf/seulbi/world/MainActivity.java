@@ -113,12 +113,12 @@ public class MainActivity extends AppCompatActivity {
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
             }
-            String version = pInfo.versionName;
+            String versionName = pInfo.versionName;
             int versionCode = pInfo.versionCode;
 
             new AlertDialog.Builder(this)
                     .setTitle(R.string.action_version) //팝업창 타이틀바
-                    .setMessage("versionName " + version + "\n" + "versionCode " + versionCode) //팝업창 내용
+                    .setMessage("versionCode " + versionCode + "\n" + "versionName " + versionName) //팝업창 내용
                     .setNeutralButton(R.string.neutral_button,new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dlg, int hv) {
 
