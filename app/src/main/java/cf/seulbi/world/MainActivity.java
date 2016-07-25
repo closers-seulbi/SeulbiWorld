@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         // 링크를 강제적으로 브라우저 대신 WebView 로 연결하도록 리다이렉트
         mWebView.setWebViewClient(new WebViewClient());
 
+        //
+
         // Javascript 허용
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
