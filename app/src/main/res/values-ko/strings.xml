@@ -8,4 +8,7 @@
     <string name="action_update">업데이트</string>
     <string name="preparing_update">업데이트 기능 구상중</string>
     <string name="action_version">버전</string>
+    <string name="log_title">로그</string>
+    <string name="changelog_title">변경 사항</string>
+    <string name="changelog">버전코드 5 &#8211; 1.0.4\n\t변경 사항 추가\n\t버전 업데이트\n\n버전코드 4 &#8211; 1.0.3\n\t화면 회전 문제 해결\n\t버전 업데이트</string>
 </resources>

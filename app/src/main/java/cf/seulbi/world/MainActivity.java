@@ -22,6 +22,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+        dialog.setTitle(R.string.changelog_title);
+        dialog.setMessage(R.string.changelog);
+        dialog.show();
+
         mWebView = (WebView) findViewById(R.id.webView);
 
         // 링크를 강제적으로 브라우저 대신 WebView 로 연결하도록 리다이렉트

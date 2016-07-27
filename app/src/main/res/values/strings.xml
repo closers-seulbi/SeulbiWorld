@@ -7,4 +7,7 @@
     <string name="neutral_button">Close</string>
     <string name="preparing_update">Preparing Update Feature</string>
     <string name="action_version">Version</string>
+    <string name="log_title">Log</string>
+    <string name="changelog_title">Change Log</string>
+    <string name="changelog">VersionCode 5 &#8211; 1.0.4\n\tAdd Change Log\n\tUpdate App Version\n\nVersionCode 4 &#8211; 1.0.3\n\tFix Rotation Problem\n\tUpdate App Version</string>
 </resources>
